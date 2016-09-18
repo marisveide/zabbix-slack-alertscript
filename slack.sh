@@ -13,7 +13,7 @@ username="$2"
 to="$3"
 subject="$4"
 
-if [[ "$subject" == *"RECOVER"* ]]; then
+if [[ "$subject" == *"OK"* ]]; then
 	status_emoji=":white_check_mark: "
 elif [[ "$subject" = *"PROBLEM"* ]]; then
 	status_emoji=":exclamation: "
